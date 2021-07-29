@@ -9,9 +9,10 @@ public static void main(String[] args) {
 	int a=sc.nextInt();
 	System.out.println("Enter value of b;");
 	int b=sc.nextInt();
-	int as=a*a;
-	int bs=b*b;
+	int as=Math.pow(a,2);
+	int bs=Math.pow(b, 2);
 	System.out.println("value of c:"+(as+bs));
+	sc.close();
 	
 	}
 
